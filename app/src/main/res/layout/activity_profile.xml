@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#111111"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Header -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingVertical="8dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/back"
+                android:tint="#FFFFFF"
+                tools:ignore="UseAppTint" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Profile"
+                android:layout_marginRight="150dp"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:background="@null"
+                android:text="support"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp"
+                android:padding="2dp"
+                android:outlineProvider="bounds"/>
+                <!--android:tint="#FFFFFF" -->
+        </LinearLayout>
+
+        <!-- Profile Info -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/profile"
+                android:layout_marginEnd="16dp"
+                android:scaleType="centerCrop" />
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:text="andaz Kumar"
+                    android:background="@null"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:layout_height="20dp"
+                    android:layout_width="wrap_content"/>
+
+                <TextView
+                    android:text="member since Dec, 2020"
+                    android:textColor="#AAAAAA"
+                    android:textSize="14sp"
+                    android:layout_height="15dp"
+                    android:layout_width="wrap_content" />
+
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/edit"
+                android:tint="#FFFFFF"
+                tools:ignore="UseAppTint" />
+
+        </LinearLayout>
+
+        <!-- CRED Garage Banner -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#1A1A1A"
+            android:padding="16dp"
+            android:layout_marginTop="16dp">
+
+            <ImageView
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:src="@drawable/car1"
+                android:tint="#FFFFFF"
+                tools:ignore="UseAppTint" />
+
+            <TextView
+                android:layout_marginStart="12dp"
+                android:text="get to know your vehicles, inside out\nCRED garage"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:layout_height="50dp"
+                 android:layout_width="wrap_content"/>
+
+
+        </LinearLayout>
+
+        <!-- Credit Score -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingVertical="16dp"
+            android:layout_marginTop="22dp"
+            >
+
+            <TextView
+                android:text="•  credit score"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"/>
+
+            <TextView
+                android:text="•  REFRESH AVAILABLE"
+                android:textColor="#00FF00"
+                android:textSize="16sp"
+                android:layout_height="22dp"
+                android:layout_width="wrap_content"
+                android:paddingLeft="10dp"
+                />
+
+            <TextView
+                android:text="757  -->"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:layout_marginLeft="26dp"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"/>
+        </LinearLayout>
+
+        <!-- Cashback & Bank Balance -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp">
+
+            <TextView
+                android:text="₹  lifetime cashback                                           ₹3  -->"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:paddingVertical="4dp"
+                android:layout_height="28dp"
+                android:layout_width="wrap_content"
+                />
+
+            <TextView
+                android:text=">  bank balance                                            check  -->"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:layout_marginTop="17dp"
+                android:paddingVertical="4dp"
+                android:layout_height="30dp"
+                android:layout_width="wrap_content"
+                />
+        </LinearLayout>
+        <!-- Rewards Section -->
+        <TextView
+            android:text="YOUR REWARDS &amp; BENEFITS"
+            android:textColor="#AAAAAA"
+            android:textSize="16sp"
+            android:paddingVertical="8dp"
+            android:layout_marginTop="22dp"
+            android:layout_height="36dp"
+            android:layout_width="wrap_content"
+            />
+
+        <TextView
+            android:text="cashback balance \n₹0                                                                               >"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:paddingVertical="4dp"
+            android:layout_height="46dp"
+            android:layout_width="wrap_content"
+            />
+
+        <TextView
+            android:text="coins\n26,46,583                                                                  >"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:paddingVertical="4dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="46dp"
+            android:layout_width="wrap_content"
+            />
+
+        <TextView
+            android:text="win upto Rs 1000\nrefer and earn                                                           >"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:paddingVertical="4dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="46dp"
+            android:layout_width="wrap_content"
+            />
+
+        <!-- Transactions -->
+        <TextView
+            android:text="TRANSACTIONS &amp; SUPPORT"
+            android:textColor="#AAAAAA"
+            android:textSize="16sp"
+            android:paddingVertical="8dp"
+            android:layout_marginTop="54dp"
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"/>
+
+        <TextView
+            android:text="all transactions                                                         >"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:paddingBottom="12dp"
+            android:layout_height="40dp"
+            android:layout_width="wrap_content"/>
+
+    </LinearLayout>
+</ScrollView>
